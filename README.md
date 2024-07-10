@@ -11,3 +11,4 @@ The system utilizes a customized YOLOv8 model for real-time detection of objects
 - **Tracking_code.py** - Detection, tracking, and driving assistance code (needs to be modified for every camera)
 - **camera_calibration.py** - Python script for calibrating camera and driving zones
 - **arduino_module.py** - Python script for serial communication and sending/receiving commands with Arduino
+- **data.yaml** - Sample yaml file for model training and validation
