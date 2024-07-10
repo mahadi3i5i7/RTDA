@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['biker', 'bus', 'car', 'green_light', 'person', 'red_light', 'rickshaw', 'truck_big', 'truck_small', 'yellow_light']
+
+roboflow:
+  workspace: fyp-w4ldy
+  project: fyp_more_cars
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fyp-w4ldy/fyp_more_cars/dataset/3
