@@ -6,3 +6,9 @@ The information is used to track the position of objects over time and derive a 
 By using the object’s location in the frame along with closeness factor, the system can assess the rate of approach of detected objects. 
 Using this information, the system notifies and warns the driver of potential hazards in real-time.
 
+The following files exist:
+Custom.py - Python script for training YOLOv8 model on custom dataset
+images_png_to_jpg.py - Python script for converting images in dataset into jpg format
+Tracking.py - Detection, tracking, and driving assistance code (needs to be modified for every camera)
+camera_calibration.py - Python script for calibrating camera and driving zones
+arduino_module.py - Python script for serial communication and sending/receving commands with arduino
