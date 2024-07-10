@@ -8,6 +8,6 @@ The system utilizes a customized YOLOv8 model for real-time detection of objects
 
 - **Custom.py** - Python script for training YOLOv8 model on custom dataset
 - **images_png_to_jpg.py** - Python script for converting images in dataset into jpg format
-- **Tracking.py** - Detection, tracking, and driving assistance code (needs to be modified for every camera)
+- **Tracking_code.py** - Detection, tracking, and driving assistance code (needs to be modified for every camera)
 - **camera_calibration.py** - Python script for calibrating camera and driving zones
 - **arduino_module.py** - Python script for serial communication and sending/receiving commands with Arduino
